@@ -31,7 +31,7 @@ function BlogPostPage() {
             ))}
           </div>
         </div>
-        <article className="max-w-none text-terminal-text leading-relaxed">
+        <article className="prose prose-invert prose-sm max-w-none text-terminal-text leading-relaxed">
           <PostComponent />
         </article>
       </TerminalBlock>
