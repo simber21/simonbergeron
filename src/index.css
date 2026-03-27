@@ -1,2 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
 @import "tailwindcss";
+
+@theme {
+  --color-terminal-bg: #0d0d16;
+  --color-terminal-border: #1e1e2e;
+  --color-terminal-green: #00ff9f;
+  --color-terminal-dim: #555555;
+  --color-terminal-muted: #888888;
+  --color-terminal-text: #c9d1d9;
+  --font-mono: 'JetBrains Mono', 'Fira Code', ui-monospace, monospace;
+}
