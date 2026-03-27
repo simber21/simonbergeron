@@ -5,9 +5,9 @@ export function Nav() {
         ~/simonbergeron
       </span>
       <div className="flex gap-6 text-xs text-terminal-muted">
-        <a href="#about" className="hover:text-terminal-text transition-colors">about</a>
-        <a href="#projects" className="hover:text-terminal-text transition-colors">projects</a>
-        <a href="#blog" className="hover:text-terminal-text transition-colors">blog</a>
+        <a href="#about" className="hover:text-terminal-green transition-colors">about</a>
+        <a href="#projects" className="hover:text-terminal-green transition-colors">projects</a>
+        <a href="#blog" className="hover:text-terminal-green transition-colors">blog</a>
         <a
           href="https://github.com/simonbergeron"
           target="_blank"
