@@ -27,7 +27,7 @@ function BlogPostPage() {
           <div className="flex gap-4 text-terminal-dim text-xs">
             <span>{post.date}</span>
             {post.tags.map((tag) => (
-              <span key={tag} className="text-terminal-muted">#{tag}</span>
+              <span key={tag} className="text-terminal-dim">#{tag}</span>
             ))}
           </div>
         </div>
