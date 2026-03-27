@@ -1,9 +1,10 @@
+import type { ReactNode } from 'react'
 import { TerminalLine } from './TerminalLine'
 
 interface TerminalBlockProps {
   command: string
   id?: string
-  children: React.ReactNode
+  children: ReactNode
 }
 
 export function TerminalBlock({ command, id, children }: TerminalBlockProps) {
