@@ -1,9 +1,7 @@
 export function Nav() {
   return (
     <nav className="fixed top-0 w-full z-50 flex justify-between items-center px-4 sm:px-6 py-4 bg-terminal-bg border-b border-terminal-border">
-      <span className="text-terminal-green font-bold text-sm tracking-tight">
-        ~/simonbergeron
-      </span>
+      <a href="/" className="text-terminal-green font-bold text-sm tracking-tight">~/simonbergeron</a>
       <div className="flex gap-4 sm:gap-6 text-xs text-terminal-muted">
         <a href="/#about" className="hidden sm:block hover:text-terminal-green transition-colors">about</a>
         <a href="/#projects" className="hidden sm:block hover:text-terminal-green transition-colors">projects</a>
