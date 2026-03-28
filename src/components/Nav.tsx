@@ -9,7 +9,7 @@ export function Nav() {
         <a href="/#projects" className="hover:text-terminal-green transition-colors">projects</a>
         <a href="/#blog" className="hover:text-terminal-green transition-colors">blog</a>
         <a
-          href="https://github.com/simonbergeron"
+          href="https://github.com/simber21"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-terminal-green transition-colors"
@@ -17,7 +17,7 @@ export function Nav() {
           github ↗
         </a>
         <a
-          href="https://linkedin.com/in/simonbergeron"
+          href="https://linkedin.com/in/simon-bergeron-0aa95ba4"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-terminal-green transition-colors"
