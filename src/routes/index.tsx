@@ -27,7 +27,7 @@ function HomePage() {
   return (
     <div className="max-w-3xl mx-auto">
       {/* Hero */}
-      <section className="px-6 py-20">
+      <section className="px-4 sm:px-6 py-12 sm:py-20">
         <div className="text-terminal-dim text-xs mb-2">$ whoami</div>
         <h1 className="text-terminal-green text-4xl font-bold tracking-tight leading-tight mb-2">
           Simon Bergeron
@@ -85,7 +85,7 @@ function HomePage() {
       </TerminalBlock>
 
       {/* Footer */}
-      <footer className="border-t border-terminal-border px-6 py-6 flex justify-between text-terminal-dim text-xs">
+      <footer className="border-t border-terminal-border px-4 sm:px-6 py-6 flex flex-col sm:flex-row justify-between gap-1 text-terminal-dim text-xs">
         <span>© 2026 Simon Bergeron</span>
         <span>simonbergeron.dev</span>
       </footer>
